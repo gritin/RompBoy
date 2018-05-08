@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Slide1 from './Carousel';
 import Nav from './Navbar';
 import About from './about';
-
+import Rompboy from './rompboy';
 
 
 class App extends Component {
@@ -19,13 +19,11 @@ class App extends Component {
     
         <div class="bg">
           <Nav/>
+          <Rompboy/>
           <Slide1/>
           <About/>
         </div>
-        
-        
-        
-    
+       
       </div>
     );
 

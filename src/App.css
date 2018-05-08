@@ -28,24 +28,37 @@
 }
 
 .img-banner{
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   object-position: center;
 }
 
 .bg{
-  background-image: url(/Bg.jpg);
+  background-image: url(/RLB.png);
   height: 100%;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 80vh;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .Slide1{
-  margin: 50px 0;
+  margin: 600px 0 0 0;
 }
 
 .aboutbg{
   padding: 50px;
   background-color: rgb(255,255,255,0.7);
+  height: auto;
+}
+.navbar-brand{
+  padding-left: 1rem;
+}
+.bg-white{
+  position: fixed;
+}
+.logobg{
+  padding: 50px;
+  background-color:transparent;
   height: auto;
 }
