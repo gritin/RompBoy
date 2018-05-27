@@ -43,16 +43,28 @@
 }
 
 .Slide1{
-  margin: 600px 0 0 0;
+  padding-top: 3.5rem;
+  object-fit: cover;
+  
+  
 }
-
+.block2{
+  height: 100vh;
+  object-position: center;
+  padding: 11.5rem;
+}
 .aboutbg{
-  padding: 50px;
-  background-color: rgb(255,255,255,0.7);
-  height: auto;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: white;
+  width:  150vh;
+  height: 50vh;
+  object-position: center;
+  
 }
 .navbar-brand{
   padding-left: 1rem;
+  padding-top: 1rem;
 }
 .bg-white{
   position: fixed;
