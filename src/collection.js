@@ -7,7 +7,7 @@ class Collection extends Component {
     render() {
         return (
 
-            <div id="a1" className="Collection">
+            <div  className="Collection">
 
                 <div class='container'>
                     <div class="aboutbg">

@@ -1,20 +1,26 @@
 import React, { Component } from 'react';
+import Nav from './Navbar';
 import About from './about';
 import Slide1 from './Carousel';
 import Rompboy from './rompboy';
-import SlideCol from './slidecol';
+import Slidecol from './colslide';
+
 class Home extends Component{
 
     render() {
         return (
-    
-          <div className="Home">
 
-          <Slide1/>
-        
-          <About/>
+          <div className="Home" id="home">
           
-          <SlideCol/>
+          <Nav/>
+            <Slide1/>
+         
+         
+          <div class="aos-animate"data-aos="fade-up"data-aos-duration="3000">
+          <About/>
+          </div>
+          
+          <Slidecol/>
           <Slide1/>
           <Slide1/>
           <Slide1/>

@@ -15,34 +15,36 @@ class Nav extends Component {
        
   
   <nav class="navbar fixed-top navbar-expand-lg  navbar navbar-dark bg-dark"  >
-          <img src ="rompboy.png" width="2.25%"/>
+          <div class="logonav animated fadeInUp">
+          <img src ="rompboy.png" width="32"/>
+          </div>
           
-          <a class="navbar-brand" href="#">ROMPBOY  SHOES</a>
+          <a class="show navbar-brand animated fadeInUp" href="#">ROMPBOY  SHOES</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item activef ">
-                <Link exact to="/" class="nav-link">Home<span class="sr-only">(current)</span></Link>
+                <a class="show1 nav-link animated fadeInUp" href="#home" >Home<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#a1" >About</a>
+                <a class="show2 nav-link animated fadeInUp"  href="#about">About</a>
               </li>
               <li class="nav-item">
-                <Link to="/collection"class="nav-link" >Collection</Link>
+                <Link to="/collection"class="show3 nav-link animated fadeInUp" >Collection</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Limited</a>
+                <a class="show4 nav-link animated fadeInUp" href="#limited">Limited</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="show5 nav-link dropdown-toggle animated fadeInUp" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Contact
         </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Address</a>
-                  <a class="dropdown-item" href="#">Line</a>
-                  <a class="dropdown-item" target ="_blank" href= " https://www.facebook.com/rompboybkk/">Facebook</a>
+                  <a class="dropdown-item animated fadeInUp" href="#">Address</a>
+                  <a class="line dropdown-item animated fadeInUp" href="#">Line</a>
+                  <a class="fb dropdown-item animated fadeInUp" target ="_blank" href= " https://www.facebook.com/rompboybkk/">Facebook</a>
                 </div>
               </li>
             </ul>
