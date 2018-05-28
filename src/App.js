@@ -15,6 +15,7 @@ import Collection from './collection';
 import Slidecol from './colslide';
 
 
+
 class App extends Component {
 
 

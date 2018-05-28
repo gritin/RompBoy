@@ -11,6 +11,7 @@ class Nav extends Component {
       return (
   
         <div className="Nav">
+        
   
        
   
@@ -37,16 +38,10 @@ class Nav extends Component {
               <li class="nav-item">
                 <a class="show4 nav-link animated fadeInUp" href="#collab">Collab</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="show5 nav-link dropdown-toggle animated fadeInUp" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Contact
-        </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item animated bounceIn " href="#">Address</a>
-                  <a class="line dropdown-item animated bounceIn " href="#">Line</a>
-                  <a class="fb dropdown-item animated bounceIn " target ="_blank" href= " https://www.facebook.com/rompboybkk/">Facebook</a>
-                </div>
+              <li class="nav-item">
+                <a class="show5 nav-link animated fadeInUp"  target ="_blank" href="https://www.facebook.com/rompboybkk/">Facebook</a>
               </li>
+              
             </ul>
           </div>
         </nav>

@@ -1,9 +1,15 @@
+@font-face{
+  font-family: bangna;
+  src: url(bangna-new.ttf);
+}
 .App {
   text-align: left;
   background-image: url(/bg2.png);
   
 }
-
+div {
+  font-family: bangna;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -101,7 +107,22 @@
   margin-right: 2rem;
   
 }
-
+.button.style{
+  margin-left: 60px;
+  margin-bottom: 70px;
+}
+.img-banner2{
+  object-fit: cover;
+  object-position: center;
+  height: 100vh;
+}
+.h2{
+  color: black;
+  padding-top: 30px;
+}
+.card-deck {
+  color: black;
+}
 .show{
   color: white;
   -webkit-animation-delay: 1s;
@@ -132,7 +153,12 @@
 .fb{
   -webkit-animation-delay: 0.4s;
 }
-
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+color: white;
+}
+.bla{
+  color: black;
+}
 .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
   background-color: transparent;
   border-color: transparent;
@@ -142,8 +168,12 @@
   margin-bottom: 30px;
   width: 68px;
   height: 56px;
+  margin-left: 60px;
 }
-
+.row {
+  margin-top: 25px;
+  margin-bottom: 20px
+}
 .container{
   object-fit: cover;
 }

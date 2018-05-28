@@ -4,6 +4,8 @@ import About from './about';
 import Slide1 from './Carousel';
 import Rompboy from './rompboy';
 import Slidecol from './colslide';
+import Collabsl from './collabsl';
+
 
 class Home extends Component{
 
@@ -22,9 +24,8 @@ class Home extends Component{
           </div>
           
           <Slidecol/>
-          <Slide1/>
-          <Slide1/>
-          <Slide1/>
+          <Collabsl/>
+         
             
         
           </div>
