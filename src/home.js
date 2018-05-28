@@ -10,10 +10,11 @@ class Home extends Component{
     render() {
         return (
 
-          <div className="Home" id="home">
+          <div className="Home animated animated fadeInDownBig " id="home">
           
-          <Nav/>
-            <Slide1/>
+        <div class="block1">
+          <Slide1/>
+          </div>
          
          
           <div class="aos-animate"data-aos="fade-up"data-aos-duration="3000">

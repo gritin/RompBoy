@@ -32,19 +32,19 @@ class Nav extends Component {
                 <a class="show2 nav-link animated fadeInUp"  href="#about">About</a>
               </li>
               <li class="nav-item">
-                <Link to="/collection"class="show3 nav-link animated fadeInUp" >Collection</Link>
+                <a class="show3 nav-link animated fadeInUp" href="#collection" >Collection</a>
               </li>
               <li class="nav-item">
-                <a class="show4 nav-link animated fadeInUp" href="#limited">Limited</a>
+                <a class="show4 nav-link animated fadeInUp" href="#collab">Collab</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="show5 nav-link dropdown-toggle animated fadeInUp" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Contact
         </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item animated fadeInUp" href="#">Address</a>
-                  <a class="line dropdown-item animated fadeInUp" href="#">Line</a>
-                  <a class="fb dropdown-item animated fadeInUp" target ="_blank" href= " https://www.facebook.com/rompboybkk/">Facebook</a>
+                  <a class="dropdown-item animated bounceIn " href="#">Address</a>
+                  <a class="line dropdown-item animated bounceIn " href="#">Line</a>
+                  <a class="fb dropdown-item animated bounceIn " target ="_blank" href= " https://www.facebook.com/rompboybkk/">Facebook</a>
                 </div>
               </li>
             </ul>

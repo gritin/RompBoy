@@ -21,15 +21,15 @@ class App extends Component {
   render() {
     return (
 
-      <div className="App" id="page-wrap">
+      <div className="App bg" id="page-wrap">
 
 
 
-        <div class="bg ">
+        <div class="bg">
         <Nav/>
           
           
-          <div class="bg animated animated fadeInDownBig ">
+          <div class="bg">
          
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
