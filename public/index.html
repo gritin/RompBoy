@@ -38,14 +38,16 @@
             if (document.body.scrollTop >= 700 || document.documentElement.scrollTop >= 700) {
               
               $(".bg").css({"background-image": "url(/Bg.jpg)", "background-size": "cover"});
-
+              $('#About').addClass('animated slideInUp');
             } else {
               
               $(".bg").css({"background-image": "url(/bg2.jpg)", "background-size": "cover"});
+              $('#About').addClass('animated slideOutDown');
             }
         }
         
     </script>
+    
     <script>
 
     $('#aboutb').click(function( e ) {
