@@ -6,6 +6,7 @@
     "animate.css": "^3.6.1",
     "aos": "^2.3.0",
     "bootstrap": "^4.1.1",
+    "firebase": "^5.0.4",
     "google-maps-react": "^2.0.2",
     "jquery-animate-scroll": "^1.0.0",
     "npm": "^6.1.0",
@@ -14,6 +15,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
     "reactstrap": "^6.0.1",
+    "trim": "0.0.1",
     "w3-css": "^4.1.0"
   },
   "scripts": {

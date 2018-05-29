@@ -12,7 +12,7 @@ class Slide1 extends Component {
   
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100  img-banner" src="rblogo.png" alt="First slide" />
+        <img class="d-block w-100  img-banner" src="rblogo2-01.png" alt="First slide" />
       </div>
       
      

@@ -9,7 +9,7 @@ class Slidecol extends Component {
       
 
       <div id="collection" className="Sllidecol " >
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2700" >
+        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval="2700" >
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>

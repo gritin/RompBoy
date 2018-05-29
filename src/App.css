@@ -60,6 +60,13 @@ div {
 .collapse{
   object-fit: cover;
 }
+.search{
+  position: right;
+}
+.ui-input-text, .ui-input-search {
+margin: 0;
+}
+
 .bg-blue {
   background-color: #1c2b54!important;
 }
@@ -126,7 +133,12 @@ div {
 .card-deck {
   color: black;
 }
+.navbar-dark .navbar-brand {
+    color: #fff;
+    padding-top: 13px;
+}
 .show{
+  
   color: white;
   -webkit-animation-delay: 1s;
 }
@@ -159,13 +171,12 @@ div {
 .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
 color: white;
 }
-.navbar-dark .navbar-brand {
-    color: #fcb529;
-}
+
 .bla{
   color: black;
 }
 .tag{
+  padding-left: 35px !important;
   margin-top: 10px;
   margin-left: 450px !important;
   background-color: rgba(255, 255, 255, 0.25);
@@ -175,6 +186,8 @@ color: white;
   background-position: center;
   width: 500px;
   height: 80px;
+  font-size: 40px;
+  padding-bottom: 0.6rem;
 
   
 }

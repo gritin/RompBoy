@@ -8,7 +8,7 @@ class Collabsl extends Component {
       return (
 
         <div className="Collabsl " id="collab">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"data-interval="4000">
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel"data-interval="4000">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -32,7 +32,14 @@ class Collabsl extends Component {
       
      
     </div>
-    
+    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
     <p>
             <button class="btn  carousel-indicators " type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
               <img width="43px" src="down.png" />
