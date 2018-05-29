@@ -15,7 +15,7 @@ class Nav extends Component {
   
        
   
-  <nav class="navbar fixed-top navbar-expand-lg  navbar navbar-dark bg-dark"  >
+  <nav class="navbar fixed-top navbar-expand-lg  navbar navbar-dark bg-blue"  >
           <div class="logonav animated fadeInUp">
           <img src ="rompboy.png" width="32"/>
           </div>

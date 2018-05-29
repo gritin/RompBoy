@@ -7,7 +7,7 @@ class Collabsl extends Component {
     render() {
       return (
 
-        <div className="Collabsl" id="collab">
+        <div className="Collabsl " id="collab">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"data-interval="4000">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>

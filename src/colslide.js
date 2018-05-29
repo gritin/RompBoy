@@ -6,8 +6,9 @@ class Slidecol extends Component {
 
   render() {
     return (
+      
 
-      <div className="Sllidecol" id="collection">
+      <div id="collection" className="Sllidecol " >
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2700" >
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
@@ -17,6 +18,7 @@ class Slidecol extends Component {
 
           </ol>
           <div class="carousel-inner">
+          <h1 class="tag carousel-indicators">Rompboy Collection</h1>
             <div class="carousel-item active">
               <img class="d-block w-100  img-banner" src="SHOES.jpg" alt="First slide" />
             </div>

@@ -60,7 +60,9 @@ div {
 .collapse{
   object-fit: cover;
 }
-
+.bg-blue {
+  background-color: #1c2b54!important;
+}
 .button{
   background: transparent;
   position: center;
@@ -69,6 +71,7 @@ div {
   object-fit: cover;
   height: 150vh;
 }
+
 .block2{
   height: 100vh;
   object-position: center;
@@ -156,8 +159,24 @@ div {
 .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
 color: white;
 }
+.navbar-dark .navbar-brand {
+    color: #fcb529;
+}
 .bla{
   color: black;
+}
+.tag{
+  margin-top: 10px;
+  margin-left: 450px !important;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 45px !important;
+  padding-top: 1rem;
+  bottom: 50px !important;
+  background-position: center;
+  width: 500px;
+  height: 80px;
+
+  
 }
 .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
   background-color: transparent;
