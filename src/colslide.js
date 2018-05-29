@@ -60,10 +60,15 @@ class Slidecol extends Component {
                     </div>
                     <div class="row"><h5 class="p-4">คอนเซ็ปต์กลับสู่จุดเริ่มต้นของรองเท้าผ้าใบแฮนด์เมดที่ได้รับแรงบันดาลใจจากรองเท้ากีฬาแบดมินในยุค 1960s มาพร้อมสีสุดคลาสสิคอย่าง ดำและขาว (Vanilla & Charcoal) บวกกับเอกลักษณ์ในการประกอบงานด้วยมืออย่างพิถีพิถันทุกคู่ ที่สำคัญจุดเด่นของแบรนด์นี้คือความละเอียด</h5></div>
                    <div class="row">
-                    <div class="col-sm animated zoomIn"><div class="card"><img class="card-img-top" src="black-and-basic.jpg" alt="Card image cap" /></div>
+                    <div class="col-sm animated zoomIn"><div class="card "><img class="card-img-top" src="black-and-basic.jpg" alt="Card image cap" class="image" />
+                    
+    <div class="overlay te">Black To Basic</div>
+ 
+                    </div>
                     </div>
                     
-                    <div class="col-sm animated zoomIn"><div class="card"><img class="card-img-top" src="brick (1).jpg " alt="Card image cap" /></div></div>
+                    <div class="col-sm animated zoomIn"><div class="card"><img class="card-img-top" src="brick (1).jpg " alt="Card image cap" class="image" />
+                    <div class="overlay te">Brick</div></div></div>
                     <div class="col-sm"></div>
                   </div>   
                 <div class="row"></div>
@@ -80,17 +85,20 @@ class Slidecol extends Component {
                   <div class="row">
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top " src="11.jpg" alt="Card image cap" />
+                        <img class="card-img-top " src="11.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Ivory</div>
                       </div>
                     </div>
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="brick.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="brick.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Mustard</div>
                       </div>
                     </div>
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="co.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="co.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Military</div>
                       </div>
                     </div>
                   </div>
@@ -109,7 +117,8 @@ class Slidecol extends Component {
                   <div class="row">
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="skin1.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="skin1.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Skin</div>
                       </div>
                     </div>
                     <div class="col-sm">
@@ -140,17 +149,20 @@ class Slidecol extends Component {
                   <div class="row">
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="brick2.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="brick2.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Brick</div>
                       </div>
                     </div>
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="cookie-and-cream.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="cookie-and-cream.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Cookie And Cream</div>
                       </div>
                     </div>
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="double-black.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="double-black.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Double Black</div>
                       </div>
                     </div>
                     </div>
@@ -159,17 +171,20 @@ class Slidecol extends Component {
                     <div class="row">
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="dusty-pink.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="dusty-pink.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Dusty Pink</div>
                       </div>
                     </div>
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="igkv-13-0.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="igkv-13-0.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Black</div>
                       </div>
                     </div>
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="leaf.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="leaf.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Leaf</div>
                       </div>
                     </div>
                     </div>
@@ -177,17 +192,20 @@ class Slidecol extends Component {
                     <div class="row">
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="maroon.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="maroon.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Maroon</div>
                       </div>
                     </div>
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="off-white.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="off-white.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Off White</div>
                       </div>
                     </div>
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="sun-flower.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="sun-flower.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Sun Flower</div>
                       </div>
                     </div>
                     </div>
@@ -195,7 +213,8 @@ class Slidecol extends Component {
                     <div class="row">
                     <div class="col-sm animated zoomIn">
                       <div class="card">
-                        <img class="card-img-top" src="triple-navy.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="triple-navy.jpg" alt="Card image cap" class="image" />
+                        <div class="overlay te">Triple Navy</div>
                       </div>
                     </div>
                     <div class="col-sm">
